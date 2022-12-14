@@ -1,0 +1,37 @@
+* {
+    text-align: center;
+}
+
+body {
+    background-color: antiquewhite;
+}
+
+.main-container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 20px;
+}
+
+.btn-container{
+    display: flex;
+}
+
+.admin-btn{
+    margin-top: 20px;
+    margin-right: 150px;
+    font-size: x-large;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+.logout-btn{
+    margin-top: 20px;
+    margin-left: 150px;
+    font-size: x-large;
+    background-color: orange;
+    border: none;
+    cursor: pointer;
+}
